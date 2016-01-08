@@ -2,11 +2,13 @@
 /**
  * A class representing a queue data structure implemented
  * using an array.
+ * <p>
  * For example:
  * <pre>
  *    Queue q = new Queue(10);
  *    StdOut.println(q);
  * </pre>
+ * </p>
  *
  * @author  Evgeniya Bautina
  * @version 1.0 11 Oct 2015
@@ -19,9 +21,10 @@ public class Queue<Key> {
     private int tail; //pointer to the last element in the queue
     
    /**
-    * Creates an empty queue.   
-    *
-    * @param  size  array size
+    * Creates an empty queue.
+    * 
+    * @param size
+    *           array size
     */
     public Queue(int size) {
         capacity = size;
